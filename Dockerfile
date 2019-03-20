@@ -1,6 +1,7 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	PMP
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
+ENV FIXED	true
 
 # install depend
 RUN yum install wget -y
