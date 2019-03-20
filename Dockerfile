@@ -1,5 +1,6 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	PMP
+ENV EDITTION	pro
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 ENV FIXED	true
 
