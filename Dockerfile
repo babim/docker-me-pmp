@@ -1,5 +1,6 @@
 FROM babim/centosbase:7-x86
 ENV SOFT	PMP
+ENV EDITTION	pro
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 ENV FIXED	true
 
