@@ -1,5 +1,6 @@
 FROM babim/oraclelinuxbase:7
 ENV SOFT	PMP
+ENV EDITTION	msp
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 
 # install depend
