@@ -3,6 +3,7 @@ ENV SOFT	PMP
 ENV EDITTION	pro
 ENV SOFT_HOME	/opt/ManageEngine/${SOFT}
 ENV FIXED	true
+ENV MACHINE_TYPE x86
 
 # download option
 RUN yum install curl -y && \
