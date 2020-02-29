@@ -7,7 +7,10 @@ docker run --detach --publish 7272:7272 babim/pmp:latest
 ```
 ```
 volume:
-/opt/ManageEngine/PMP
+/opt/ManageEngine
 port:
 7272 7070 5522
 ```
+
+run manual with CMD /usr/sbin/init and download, install apps
+change to CMD default after install apps
